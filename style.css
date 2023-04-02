@@ -1,0 +1,71 @@
+@media desktop {
+    .block{
+        width: 1440px;
+    }
+}
+
+@media mobile {
+    .block{
+        width: 375px;
+    }
+
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+
+}
+.block {
+    display: block;
+    border-radius: 15px;
+    width: 290px;
+    height: 450px;
+    margin-top:150px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    text-align: center;
+
+}
+
+.block h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.block p{
+
+
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:hsl(220, 15%, 55%);
+}
+
+
+
+.block img{
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+.attribution{
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+    vertical-align: bottom;
+    margin-left: auto;
+    margin-right: auto;
+}
+
